@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <!--Nested labels to connect them for screen readers-->
+    <!-- <form>
+      <label>
+        Username:
+        <input type="text" placeholder="Username">
+      </label>
+      <label>
+        Password:
+        <input type="password" placeholder="Password">
+      </label>
+      <input type="submit">
+    </form> -->
+
+    <!--Another way to connect them for screen readers without nesting them-->
+    <form>
+      <label for="username">Username:</label>
+      <input id="username" type="text" placeholder="Username">
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="Password">
+      <input type="submit">
+    </form>
+  </body>
+</html>
